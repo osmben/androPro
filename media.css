@@ -1,0 +1,293 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+
+/* here is media qeuries */
+
+@media (max-width:786px){
+    header .iconn{
+        display: inline-block;
+    }
+    
+
+    header nav{
+        position: absolute;
+        top: -5000px;
+        left: 0;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: right;
+        width: 100%;
+        height: 300px;
+        border-radius:6px ;
+        background: hsl(0,0%, 100%, 0.1);
+        backdrop-filter: blur(2rem);
+        transition: top .3s ease-in-out;
+        z-index: 99999;
+
+
+    }
+    header nav a{
+      display: flex;
+      justify-content: flex-end;
+      border-top: #fff solid 1px;
+    }
+     header input[type="checkbox"]:checked + nav{
+        top: 34px;
+        transition: top .3s ease-in-out;
+    }
+
+    /* here is for the meddil of the website */
+.content .content-title .span,
+.content .content-title{
+    font-size: 37px;
+}
+
+.content .content-desc{
+   
+    font-size: 16px;
+     width: 400px;
+     line-height: 1.4;
+     letter-spacing: 1px;
+}
+    .btn{
+        margin-bottom: 8px;
+        width: 200px;
+    }
+
+    .featers{
+        padding: 120px 0;
+      text-align: center;
+    
+    }
+    .line{
+        display: none;
+    }
+
+
+    .featers-content{
+        display: flex;
+        flex-direction: column;
+        float: left;
+        width:17rem;
+        height: 13rem;
+        margin:18px 10px;
+    }
+    .featers-content.mg{
+        margin: 0;
+    }
+    
+    
+    
+    .works{
+        margin: auto;
+        padding: 120px 0;
+        text-align:center;
+        width: 100%;
+
+    }
+
+    .works-title{
+        width:19rem;
+        margin:auto;
+    }
+
+    header .image{
+        width: 13%;
+        padding: 3px ;
+        margin-top: 3px;
+    }
+    .all-items{
+        background-image: url(background5.jpg);
+    background-size: cover;
+        width: 100%;
+        height: 100vh;
+        position: relative;
+    background-position: center center; 
+    }
+
+    .photos{
+    width: 17rem;
+    margin:20px 10px;
+        float: left;
+        margin-bottom:10px;
+    
+    }
+    .photos img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .btn-effect{
+     
+        margin:40px 126px;
+        
+    }
+
+
+
+    .what-offer{
+        
+        margin-left: 111px;
+   
+    }
+    .offer-titel{
+        font-size: 35px;
+    }
+    .line-t{
+            content: "";
+            width: 72px;
+            height: 4px;
+            background: royalblue;
+            margin: 0 20px;
+            margin-left: 220px;
+    
+    }
+
+    .offer-items{
+        margin: 20px 10px;
+        width: 45%;
+        padding: 0 0 0 50px;
+        /* /* margin: auto;  */
+        align-items: center;
+        justify-content: center;
+    }
+    .service-content{
+        width: 100%;
+        float: none;
+        margin-top: -150px;
+        margin-bottom: 136px;
+    }
+
+    .service-img{
+        width:560px;
+       align-items: center;
+    }
+    .service-img img{
+        margin:-28px
+    }
+    .bolles{
+        margin: 30px;
+        width:32rem
+    }
+
+
+    .pricings{
+        width: 50%;
+        float: none;
+        margin: auto;
+        margin-bottom: 30px;
+        padding: 20px 14px;
+    }
+
+    #pricing-table{
+        display: block;
+    }
+    
+    .feater{
+        padding: 120px 202px;
+    }
+
+    .featers-text{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 35px;
+        text-transform: uppercase;
+    }
+
+    .members-item{
+        width: 49%;
+        float: left;
+        color: #fff;
+        padding: 10px 2px 40px 30px;
+        
+    }
+    #members-content{
+      margin: 0;
+      margin-top: -8px;
+   
+    }
+
+    .holder-titel{
+       width:260px;
+        font-size: 35px;
+        text-transform:uppercase
+    }
+    
+    .team-content{
+        width: 60%;
+        float: none;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .team{
+        display: block;
+
+    }
+
+    .recent-item{
+        width: 50%;
+        float: none;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+
+    .inputs{
+        margin:auto;
+    }
+
+    input[placeholder="subject"]{
+        width: 440px;
+    }
+
+    input[type="email"]{
+        width:48%;
+    }
+
+    input[placeholder="name"]{
+        width:45%
+    }
+    textarea[placeholder="message"]{
+      width: 440px;
+      height: 143px;
+    }
+    .send{
+        margin-left: 0;
+    }
+
+    .contact-item{
+        width: 100%;
+        line-height: 1.5;
+        margin:auto;
+    }
+
+    
+
+    .footer-icons{
+        margin: auto;
+       padding-top: 30px;
+       width: 60%;
+        
+    }
+    .footer-img{
+        width:210px
+    }
+
+    .rights{
+        width: 100%;
+        margin-left:116px
+    }
+    .last{
+        width: 0;
+    }
+
+    .line-t{
+        display: none;
+    }
+}
+
+

@@ -1,0 +1,167 @@
+
+@media (max-width:280px){
+    header .image{
+        width: 20%;
+    }
+    .works-title{
+        width:0;
+    }
+
+    .btn{
+        margin-bottom: 19px;
+        width: 176px;
+    }
+    
+    .rights{
+        margin-left:79px
+    }
+
+    .content{
+        width: 342px;
+    }
+ 
+
+    .content .content-desc{
+        width: 340px;
+        font-size: 13px;
+    }
+
+    .service-img {
+        width: 519px;
+        align-items: center;
+    } 
+    .service-img img{
+        display: flex;
+        justify-content: space-between;
+        margin: -83px;
+    }
+
+    .bolles{
+        padding: 63px;
+    }
+    .feater{
+        padding: 120px 0px;
+    }
+
+    .featers-content{
+        margin: 18px 2px;
+    }
+
+    .btn-effect{
+        margin:39px 22px
+    }
+
+    .offer-titel{
+        width: 144px;
+       
+
+    }
+    .line-t{
+        display: none;
+    }
+
+    #offer-content{
+        margin-top: 0;
+    }
+
+    .offer-items{
+        width: 100%;
+        margin: auto;
+        float: none;
+        height: 260px;
+        margin-bottom: 20px;
+    }
+
+    .service-img{
+        width: 100%;
+    }
+    .service-img img{
+        width: 130%;
+        margin: -91px;
+    }
+
+    
+
+    .number-item{
+        margin-bottom: 85px;
+        margin-right: 10px;
+        width: 100px;
+    }
+
+    .numbers-item{
+        padding: 19px 22px;
+    }
+    .featers-text{
+        width: 100%;
+        margin-left: 72px;
+    }
+
+    .pricings{
+        width: 100%;
+    }
+    .members{
+        background-position: center center;
+        height: 50rem;
+    }
+
+    #members-content{
+        margin: -33px;
+    }
+    .members-item{
+        float: none;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .member-text{
+        line-height: 1.4;
+    }
+
+    .holder-titel{
+        text-align: center;
+        margin-left: 45px;
+        width: 100%;
+    }
+
+    .team-content{
+        width: 100%;
+    }
+
+    .recent-item{
+        width: 100%;
+    }
+
+    .contact-item{
+        width: 100%;
+        text-align: center;
+        float: none;
+        margin-bottom: 40px;
+    }
+    .footer-icons{
+        width:95%;
+        margin-left: 16px;
+
+    }
+
+    .footer-icons li{
+        margin-bottom: 20px;
+    }
+
+    input[placeholder="subject"],
+    input[placeholder="name"]{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    input[type="email"]{
+        width: 100%;
+        margin: 0;
+    }
+
+    textarea[placeholder="message"]{
+        width: 100%;
+        height: 143px;
+      }
+
+    
+}
