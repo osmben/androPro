@@ -5,8 +5,7 @@
     }
 
     .featers-content{
-        margin-left:16px;
-        margin-bottom: 20px;
+        width:100%
     }
     .photos{
         width: 84%;
@@ -26,6 +25,11 @@
         margin: 20px 0;
         width: 100%;
 
+    }
+
+    header nav{
+        background: rgb(255, 129, 11);
+        margin-bottom: 17px;;
     }
 
     .rights{
